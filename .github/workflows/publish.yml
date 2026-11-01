@@ -27,7 +27,7 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python scripts/sync.py
         env:
-          GDRIVE_KEY: ${{ secrets.GDRIVE_KEY }}
+          GDRIVE_KEY: ${{ secrets.GONTAYAR }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
